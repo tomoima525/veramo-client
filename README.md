@@ -30,7 +30,7 @@ For Veramo agent that runs locally, set up .env file with the following variable
 
 ```
 API_KEY=test123
-AGENT_OPEN_API=http://localhost:3332/open-api.json
+AGENT_OPEN_API=http://localhost:3332/open-api.json // Or http://127.0.0.1:3332/open-api.json when accessing docker container
 ```
 
 Run the client:
